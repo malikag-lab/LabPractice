@@ -1,0 +1,13 @@
+//Create a program to convert distance in kilometers to miles.
+import java.util.*;
+public class Level1_Q8 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Please Enter the Kilometers: ");
+        double km=sc.nextDouble();
+        double miles=km*1.6;
+        System.out.println("The total miles is "+ miles+" mile for the given "+km+" km ");
+    }
+    
+
+}
